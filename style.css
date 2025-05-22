@@ -2,13 +2,17 @@
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-   
   }
   
-  body {
+  body{
     margin-top: 100px;
+     min-height: 100vh;
+    background-image: url('images/blue-gradient.jpg');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   }
-  
+   
   h1,
   h2,
   h3 {
@@ -32,6 +36,7 @@
     font-size: 17px;
     line-height: 1.5;
   }
+
   
   .navigation-links {
     display: flex;
@@ -80,12 +85,12 @@
     display: flex;
     justify-content: center;
     color: var(--primary-color);
-    font-size: 28px;
+    font-size: 18px;
     text-decoration: none;
   }
   
   .email-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   @media (max-width: 576px) {
