@@ -2,6 +2,7 @@
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+   
   }
   
   body {
@@ -28,7 +29,7 @@
   }
   
   p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.5;
   }
   

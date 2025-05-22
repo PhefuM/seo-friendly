@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Phefumlela Madyo</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,12 +17,9 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>About Phefumlela Madyo</title>
-    <meta name="description"
-    content="This website describes projects completed during workshops conducted at SheCodes"
-    />
   </head>
   <body>
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">Phefu Madyo</a>
@@ -39,57 +37,68 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/" title="Homepage">Home</a>
+              <a class="nav-link" href="index.html" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a 
-              class="nav-link active"
-               href="/about.html"
-               title="About Phefumlela Madyo"
-               >About me</a>
+              <a class="nav-link active" aria-current="page" href="about.html" title="About Phefumlela Madyo">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html#contact" title="Contact Phefumlela Madyo">Contact me</a>
+              <a class="nav-link" href="contact.html#contact" title="Contact Phefumlela Madyo">Contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from South Africa</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
+
+    <!-- About Section -->
+    <div class="container mt-5 pt-5">
+      <h1 class="text-center">About Me</h1>
+      <h3 class="text-center">Front-end developer from South Africa</h3>
+      <div class="about-paragraphs text-center my-4">
+        <p>
+          I'm Phefumlela Madyo, a passionate and detail-oriented front-end developer who loves bringing ideas to life through clean, responsive, and user-friendly designs.
+        </p>
+        <p>
+          My journey began with a background in law and expanded into the world of tech through intensive workshops, practical projects, and real-world collaborations. I take pride in crafting digital experiences that not only look great but work seamlessly.
+        </p>
+        <p>
+          From weather platforms to book apps superhero community projects, I thrive on turning creative concepts into meaningful code.
+        </p>
+      </div>
+
+      <!-- Project Previews -->
+      <div class="row text-center">
+        <div class="col-sm-4 mb-4">
           <img 
-          src="/images/yoga.png"
-          class="img-fluid p-2 mb-4 shadow rounded" 
-          alt="Yoga project"/>
+            src="/images/yoga.png" 
+            alt="Yoga project" 
+            class="img-fluid p-2 shadow rounded"
+          />
+          <h5 class="mt-2">Yoga App</h5>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-4">
           <img 
-          src="/images/weather.png" 
-          class="img-fluid p-2 mb-4 shadow rounded"
-          alt="Weather project" />
+            src="/images/weather.png" 
+            alt="Weather project" 
+            class="img-fluid p-2 shadow rounded"
+          />
+          <h5 class="mt-2">Weather App</h5>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 mb-4">
           <img 
-          src="/images/yogurt.png"
-          class="img-fluid p-2 mb-4 shadow rounded"
-          alt="Yogurt project" />
+            src="/images/yogurt.png" 
+            alt="Yogurt project" 
+            class="img-fluid p-2 shadow rounded"
+          />
+          <h5 class="mt-2">Yogurt App</h5>
         </div>
       </div>
     </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto: phefumadyo@gmail.com" class="email-link"> phefumadyo@gmail.com </a>
+
+    <!-- Contact Link -->
+    <div id="contact" class="mt-5 text-center">
+      <h2>📮 Contact me</h2>
+      <a href="mailto:phefumadyo@gmail.com" class="email-link">phefumadyo@gmail.com</a>
     </div>
   </body>
 </html>
